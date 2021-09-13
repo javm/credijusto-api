@@ -56,7 +56,6 @@ def get_exchange_rate_diario():
     #fix = rate.find_all('td')[1]
     return {'last_updated': formated_date, 'value': last_rate}
 
-
 def get_exchange_rate():
     resp = requests.get(
         banxico,

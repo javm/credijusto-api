@@ -2,7 +2,7 @@ from typing import Optional
 
 from fastapi import FastAPI
 
-from client import get_exchange_rate_banxico, get_exchange_rate_fixer, get_exchange_rate_diario
+from api.client import get_exchange_rate_banxico, get_exchange_rate_fixer, get_exchange_rate_diario
 
 app = FastAPI()
 
